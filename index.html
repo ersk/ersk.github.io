@@ -1,0 +1,149 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+	<style>
+	.dialContainer {
+  border-radius: 999px;
+  height: 525px;
+  width: 525px;
+  min-height: 525px;
+  min-width: 525px;
+  background-color: #242424;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.dialContainer .holeContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.dialContainer .holeContainer .hole {
+  height: 130px;
+  width: 130px;
+  border-radius: 99px;
+  background-color: grey;
+}
+.dialContainer .centerPointContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.dialContainer .centerPointContainer .centerPoint {
+  height: 130px;
+  width: 130px;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dialContainer .centerPointContainer .centerPoint .centerPoint_bar {
+  height: 100%;
+  width: 2px;
+  background-color: #343434;
+}
+.dialContainer .centerPointContainer .centerPoint .centerPoint_bar-horizontal {
+  position: absolute;
+  transform: rotate(90deg);
+}
+.dialContainer .dividerContainer {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transform-origin: 262.5px 262.5px;
+}
+.dialContainer .dividerContainer .divider {
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(0deg, #242424 27%, #6c6c6c 100%);
+}
+.dialContainer .maneuver {
+  position: absolute;
+  /* transform: rotate(180deg); */
+  transform-origin: 30px 238.5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 24px;
+  flex-direction: column;
+  height: 85px;
+  /*        .bankleft.one, .bankright.one, .straight.one {
+      color: dodgerblue;
+  }*/
+}
+.dialContainer .maneuver .speed {
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+  font-weight: 600;
+}
+.dialContainer .maneuver .xwing-miniatures-font {
+  font-size: 46px;
+}
+.dialContainer .maneuver .difficulty-red {
+  color: red;
+}
+.dialContainer .maneuver .difficulty-blue {
+  color: dodgerblue;
+}
+.dialContainer .maneuver .difficulty-white {
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+    
+
+
+    <div class="dialContainer" b-yjykiq0ppx><div class="maneuver" style="transform: rotate(0.000deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>1</div></div><div class="dividerContainer" style="transform: rotate(9.474deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(18.947deg);" b-yjykiq0ppx><i class="xwing-miniatures-font straight ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>1</div></div><div class="dividerContainer" style="transform: rotate(28.421deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(37.895deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>1</div></div><div class="dividerContainer" style="transform: rotate(47.368deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(56.842deg);" b-yjykiq0ppx><i class="xwing-miniatures-font straight ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>1</div></div><div class="dividerContainer" style="transform: rotate(66.316deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(75.789deg);" b-yjykiq0ppx><i class="xwing-miniatures-font rightbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>1</div></div><div class="dividerContainer" style="transform: rotate(85.263deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(94.737deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftturn ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>2</div></div><div class="dividerContainer" style="transform: rotate(104.211deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(113.684deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>2</div></div><div class="dividerContainer" style="transform: rotate(123.158deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(132.632deg);" b-yjykiq0ppx><i class="xwing-miniatures-font straight ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>2</div></div><div class="dividerContainer" style="transform: rotate(142.105deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(151.579deg);" b-yjykiq0ppx><i class="xwing-miniatures-font rightbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-blue" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>2</div></div><div class="dividerContainer" style="transform: rotate(161.053deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(170.526deg);" b-yjykiq0ppx><i class="xwing-miniatures-font rightturn ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>2</div></div><div class="dividerContainer" style="transform: rotate(180.000deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(189.474deg);" b-yjykiq0ppx><i class="xwing-miniatures-font lefttallonroll ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-red" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(198.947deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(208.421deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftturn ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(217.895deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(227.368deg);" b-yjykiq0ppx><i class="xwing-miniatures-font leftbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(236.842deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(246.316deg);" b-yjykiq0ppx><i class="xwing-miniatures-font straight ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(255.790deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(265.263deg);" b-yjykiq0ppx><i class="xwing-miniatures-font rightbank ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(274.737deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(284.211deg);" b-yjykiq0ppx><i class="xwing-miniatures-font rightturn ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(293.684deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(303.158deg);" b-yjykiq0ppx><i class="xwing-miniatures-font righttallonroll ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-red" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>3</div></div><div class="dividerContainer" style="transform: rotate(312.632deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(322.105deg);" b-yjykiq0ppx><i class="xwing-miniatures-font straight ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-white" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>4</div></div><div class="dividerContainer" style="transform: rotate(331.579deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="maneuver" style="transform: rotate(341.053deg);" b-yjykiq0ppx><i class="xwing-miniatures-font kturn ORCF.Models.XWing.Ship.Maneuver&#x2B;SpeedComponent difficulty-red" b-yjykiq0ppx></i>
+            <div class="speed" b-yjykiq0ppx>4</div></div><div class="dividerContainer" style="transform: rotate(350.526deg);" b-yjykiq0ppx><div class="divider" b-yjykiq0ppx></div></div><div class="holeContainer" b-yjykiq0ppx><div class="hole" b-yjykiq0ppx></div></div>
+
+    <div class="centerPointContainer" b-yjykiq0ppx><div class="centerPoint" b-yjykiq0ppx><div class="centerPoint_bar" b-yjykiq0ppx></div>
+            <div class="centerPoint_bar centerPoint_bar-horizontal" b-yjykiq0ppx></div></div></div></div>
+
+
+
+</html>
